@@ -1,0 +1,224 @@
+.catadores{
+
+    padding:4rem 10%;
+
+    text-align:center;
+}
+
+.catadores__title{
+
+    font-size:2.5rem;
+
+    color:#22C55E;
+
+    margin-bottom:1rem;
+}
+
+.catadores__description{
+
+    max-width:800px;
+
+    margin:auto;
+
+    color:#CBD5E1;
+
+    line-height:1.8;
+}
+
+/* BENEFÍCIOS */
+
+.beneficios{
+
+    padding:4rem 10%;
+}
+
+/* PROCESSO */
+
+.processo{
+
+    padding:4rem 10%;
+}
+
+.processo__container{
+
+    display:grid;
+
+    grid-template-columns:
+    repeat(4,1fr);
+
+    gap:1.5rem;
+}
+
+/* CADASTRO */
+
+.cadastro{
+
+    padding:4rem 10%;
+
+    text-align:center;
+}
+
+.cadastro__title{
+
+    color:#22C55E;
+
+    font-size:2rem;
+
+    margin-bottom:1rem;
+}
+
+.cadastro__description{
+
+    color:#CBD5E1;
+
+    margin-bottom:2rem;
+}
+
+.cadastro__form{
+
+    max-width:700px;
+
+    margin:auto;
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:1.5rem;
+}
+
+.cadastro__group{
+
+    display:flex;
+
+    flex-direction:column;
+
+    text-align:left;
+}
+
+.cadastro__label{
+
+    margin-bottom:.5rem;
+
+    color:#FFFFFF;
+}
+
+.cadastro__input{
+
+    padding:1rem;
+
+    border:none;
+
+    border-radius:8px;
+
+    background:#1E293B;
+
+    color:#FFFFFF;
+}
+
+.cadastro__input:focus{
+
+    outline:2px solid #22C55E;
+}
+
+.cadastro__success{
+
+    margin-top:2rem;
+
+    color:#22C55E;
+
+    font-weight:700;
+}
+
+.processo__item{
+
+    background:#1E293B;
+
+    padding:2rem;
+
+    border-radius:12px;
+
+    text-align:center;
+}
+
+.processo__numero{
+
+    width:50px;
+
+    height:50px;
+
+    margin:auto;
+
+    margin-bottom:1rem;
+
+    border-radius:50%;
+
+    background:#22C55E;
+
+    color:#FFFFFF;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    font-weight:700;
+}
+
+/* CTA */
+
+.catadores__cta{
+
+    display:flex;
+
+    justify-content:center;
+
+    padding-bottom:4rem;
+}
+
+/* MOBILE */
+
+@media screen and (max-width:480px){
+
+    .catadores{
+
+        padding:2rem 1rem;
+    }
+
+    .catadores__title{
+
+        font-size:1.8rem;
+    }
+
+    .processo__container{
+
+        grid-template-columns:1fr;
+    }
+
+}
+
+/* TABLET */
+
+@media screen and (min-width:481px)
+and (max-width:786px){
+
+    .processo__container{
+
+        grid-template-columns:
+        repeat(2,1fr);
+    }
+
+}
+
+/* DESKTOP */
+
+@media screen and (min-width:787px){
+
+    .processo__container{
+
+        grid-template-columns:
+        repeat(4,1fr);
+    }
+
+}
