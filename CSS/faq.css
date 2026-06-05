@@ -1,0 +1,92 @@
+/* ==========================================================================
+   Componente: FAQ (Frequently Asked Questions)
+   ========================================================================== */
+
+/* Container principal do componente: define espaçamento externo */
+.faq {
+    padding: 4rem 10%;
+}
+
+/* Título do bloco: centralizado para foco e leitura clara */
+.faq__title {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #22C55E;
+    margin-bottom: 1rem;
+}
+
+/* Descrição: texto de apoio com contraste adequado para leitura */
+.faq__description {
+    text-align: center;
+    color: #CBD5E1;
+    margin-bottom: 3rem;
+}
+
+/* Limita a largura do container para evitar linhas muito longas (leiturabilidade) */
+.faq__container {
+    max-width: 900px;
+    margin: auto;
+}
+
+/* Item individual: estilo do "card" da pergunta */
+.faq__item {
+    background: #1E293B;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* Botão de pergunta: reset de estilo de botão padrão e foco em a11y */
+.faq__question {
+    width: 100%;
+    padding: 1.5rem;
+    background: none;
+    border: none;
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-weight: 700;
+    text-align: left;
+    cursor: pointer;
+    /* Dica: Garanta que este elemento seja um <button> no HTML para acessibilidade */
+}
+
+.faq__question:hover {
+    color: #22C55E;
+}
+
+/* Resposta: comportamento de transição para o efeito de "acordeão" */
+.faq__answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height .4s ease;
+    background: #0F172A;
+}
+
+/* Parágrafo da resposta: espaçamento interno para respiro visual */
+.faq__answer p {
+    padding: 1.5rem;
+    color: #CBD5E1;
+    line-height: 1.6; /* Melhor legibilidade para blocos de texto */
+}
+
+/* ==========================================================================
+   Media Queries (Design Responsivo)
+   ========================================================================== */
+
+/* Mobile: ajustes de espaçamento para telas menores */
+@media screen and (max-width: 480px) {
+    .faq {
+        padding: 2rem 1rem;
+    }
+
+    .faq__title {
+        font-size: 1.8rem;
+    }
+}
+
+/* Tablet: ajustes de margens e padding */
+@media screen and (min-width: 481px) and (max-width: 786px) {
+    .faq {
+        padding: 3rem 5%;
+    }
+}
