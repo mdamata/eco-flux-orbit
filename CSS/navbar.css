@@ -1,0 +1,53 @@
+/* ==========================================================================
+   Componente: Navbar (Navegação Principal)
+   ========================================================================== */
+
+/* Container: Layout flexível horizontal para telas grandes */
+.navbar {
+    display: flex;
+    gap: 1.5rem; /* Espaçamento consistente entre itens */
+}
+
+/* Links: Estilização de navegação com transição suave */
+.navbar__link {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: 600;
+    transition: .3s; /* Feedback visual suave na interação */
+}
+
+.navbar__link:hover {
+    color: #22C55E;
+}
+
+/* ==========================================================================
+   Media Queries (Design Responsivo)
+   ========================================================================== */
+
+/* Mobile: Transforma a navegação em uma lista vertical (estilo menu sanduíche) */
+@media screen and (max-width: 480px) {
+    .navbar {
+        width: 100%;
+        display: flex;
+        flex-direction: column; /* Empilhamento vertical */
+        align-items: center;
+        gap: .8rem;
+        margin-top: 1rem;
+    }
+
+    .navbar__link {
+        width: 100%;
+        text-align: center;
+        padding: .8rem; /* Aumenta a área clicável (Touch Target) */
+        border-radius: 8px;
+    }
+}
+
+/* Tablet: Ajuste de quebra de linha para evitar overflow em telas intermediárias */
+@media screen and (min-width: 481px) and (max-width: 786px) {
+    .navbar {
+        flex-wrap: wrap; /* Permite que os links quebrem linha se necessário */
+        justify-content: center;
+        gap: 1rem;
+    }
+}
