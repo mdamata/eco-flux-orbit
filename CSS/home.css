@@ -1,0 +1,44 @@
+/* ==========================================================================
+   Componente: Sobre (Seção de Apresentação)
+   ========================================================================== */
+
+/* Container geral: define respiro (padding) e alinhamento central */
+.sobre {
+    padding: 6rem 10%;
+    text-align: center;
+}
+
+/* Título: destaque visual utilizando a cor primária da marca */
+.sobre__title {
+    font-size: 2.5rem;
+    color: #22C55E;
+    margin-bottom: 2rem;
+}
+
+/* Texto descritivo: max-width evita linhas longas, garantindo legibilidade ideal */
+.sobre__text {
+    max-width: 900px;
+    margin: auto;
+    line-height: 1.8; /* Melhor espaçamento entre linhas para leitura contínua */
+    color: #CBD5E1;
+    font-size: 1.2rem;
+}
+
+/* ==========================================================================
+   Media Queries (Design Responsivo)
+   ========================================================================== */
+
+/* Mobile: ajustes de escala e espaçamento para dispositivos de tela pequena */
+@media screen and (max-width: 480px) {
+    .sobre {
+        padding: 3rem 1rem;
+    }
+
+    .sobre__title {
+        font-size: 1.8rem;
+    }
+
+    .sobre__text {
+        font-size: 1rem;
+    }
+}
