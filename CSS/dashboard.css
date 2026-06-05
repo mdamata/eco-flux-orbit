@@ -1,0 +1,176 @@
+.dashboard{
+
+    padding:4rem 10%;
+
+    text-align:center;
+}
+
+.dashboard__title{
+
+    font-size:2.5rem;
+
+    color:#22C55E;
+
+    margin-bottom:1rem;
+}
+
+.dashboard__description{
+
+    color:#CBD5E1;
+
+    margin-bottom:3rem;
+}
+
+/* CARDS DE MÉTRICAS */
+
+.dashboard__cards{
+
+    display:grid;
+
+    grid-template-columns:
+    repeat(4,1fr);
+
+    gap:1.5rem;
+}
+
+.dashboard__number{
+
+    font-size:2.5rem;
+
+    font-weight:700;
+
+    color:#22C55E;
+}
+
+/* MAPA E REGIÕES */
+
+.dashboard__mapa{
+
+    padding:4rem 10%;
+}
+
+.dashboard__regioes{
+
+    display:grid;
+
+    grid-template-columns:
+    repeat(3,1fr);
+
+    gap:1.5rem;
+}
+
+/* RANKING */
+
+.dashboard__ranking{
+
+    padding:4rem 10%;
+}
+
+.dashboard__table{
+
+    max-width:900px;
+
+    margin:auto;
+}
+
+.dashboard__row{
+
+    display:grid;
+
+    grid-template-columns:
+    1fr 1fr;
+
+    padding:1rem;
+
+    background:#1E293B;
+
+    margin-bottom:.5rem;
+
+    border-radius:8px;
+}
+
+.dashboard__row--header{
+
+    background:#22C55E;
+
+    color:#FFFFFF;
+
+    font-weight:700;
+}
+
+/* MOBILE */
+
+@media screen and (max-width:480px){
+
+    .dashboard{
+
+        padding:2rem 1rem;
+    }
+
+    .dashboard__title{
+
+        font-size:1.8rem;
+    }
+
+    .dashboard__description{
+
+        font-size:1rem;
+    }
+
+    .dashboard__cards{
+
+        grid-template-columns:1fr;
+    }
+
+    .dashboard__regioes{
+
+        grid-template-columns:1fr;
+    }
+
+    .dashboard__row{
+
+        grid-template-columns:1fr;
+
+        text-align:center;
+
+        gap:.5rem;
+    }
+
+}
+
+/* TABLET */
+
+@media screen and (min-width:481px)
+and (max-width:786px){
+
+    .dashboard__cards{
+
+        grid-template-columns:
+        repeat(2,1fr);
+    }
+
+    .dashboard__regioes{
+
+        grid-template-columns:
+        repeat(2,1fr);
+    }
+
+}
+
+/* DESKTOP */
+
+@media screen and (min-width:787px){
+
+    .dashboard__cards{
+
+        grid-template-columns:
+        repeat(4,1fr);
+    }
+
+    .dashboard__regioes{
+
+        grid-template-columns:
+        repeat(3,1fr);
+    }
+
+}
