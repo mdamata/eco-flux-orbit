@@ -1,0 +1,28 @@
+/* ==========================================================================
+   Componente: Footer (Rodapé do site)
+   ========================================================================== */
+
+/* Container principal: define a separação visual e o espaçamento da base da página */
+.footer {
+    padding: 2rem;
+    text-align: center;
+    /* Borda sutil para separar o rodapé do restante do conteúdo */
+    border-top: 1px solid rgba(255, 255, 255, .1);
+    margin-top: 4rem;
+}
+
+/* Texto de rodapé: cor mais clara para criar contraste hierárquico com o conteúdo principal */
+.footer__text {
+    color: #94A3B8;
+}
+
+/* ==========================================================================
+   Media Queries (Design Responsivo)
+   ========================================================================== */
+
+/* Mobile: ajuste de padding para otimizar o espaço em telas pequenas */
+@media screen and (max-width: 480px) {
+    .footer {
+        padding: 1.5rem;
+    }
+}
