@@ -1,0 +1,39 @@
+/* ==========================================================================
+   Reset e Estilos Base
+   ========================================================================== */
+
+/* Reseta margens e paddings de todos os elementos e garante o cálculo 
+   correto de dimensões com box-sizing: border-box */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Habilita a rolagem suave para links internos (âncoras) */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Configura a identidade visual global: fonte, fundo e cor de texto */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #0F172A;
+    color: #FFFFFF;
+}
+
+/* Garante que imagens sejam responsivas e não ultrapassem seus containers */
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/* Remove sublinhado padrão de links */
+a {
+    text-decoration: none;
+}
+
+/* Remove marcadores padrão de listas */
+ul {
+    list-style: none;
+}
