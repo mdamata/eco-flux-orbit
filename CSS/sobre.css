@@ -1,0 +1,105 @@
+/* ==========================================================================
+   Componente: Página Sobre (Missão, Roadmap e Tecnologias)
+   ========================================================================== */
+
+/* Seção Sobre: Espaçamento centralizado para o texto principal */
+.sobre-pagina {
+    padding: 4rem 10%;
+    text-align: center;
+}
+
+.sobre-pagina__title {
+    font-size: 2.5rem;
+    color: #22C55E;
+    margin-bottom: 2rem;
+}
+
+.sobre-pagina__text {
+    max-width: 900px;
+    margin: 0 auto 1.5rem auto;
+    line-height: 1.8;
+    color: #CBD5E1;
+}
+
+/* Seção Objetivo: Bloco de foco da missão */
+.objetivo {
+    padding: 4rem 10%;
+    text-align: center;
+}
+
+.objetivo__title {
+    color: #22C55E;
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+}
+
+.objetivo__text {
+    max-width: 900px;
+    margin: auto;
+    line-height: 1.8;
+    color: #CBD5E1;
+}
+
+/* Seção Roadmap: Utiliza CSS Grid para organização cronológica dos itens */
+.roadmap {
+    padding: 4rem 10%;
+}
+
+.roadmap__title {
+    text-align: center;
+    color: #22C55E;
+    margin-bottom: 3rem;
+    font-size: 2rem;
+}
+
+.roadmap__container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* Layout de 5 colunas em Desktop */
+    gap: 1.5rem;
+}
+
+.roadmap__content {
+    background: #1E293B;
+    padding: 2rem;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.roadmap__number {
+    width: 50px;
+    height: 50px;
+    margin: 0 auto 1rem auto;
+    border-radius: 50%;
+    background: #22C55E;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.roadmap__card-title {
+    color: #22C55E;
+    margin-bottom: 1rem;
+}
+
+.roadmap__text {
+    color: #CBD5E1;
+}
+
+/* Seção Tecnologias */
+.tech {
+    padding: 4rem 10%;
+}
+
+.tech__title {
+    text-align: center;
+    color: #22C55E;
+    margin-bottom: 3rem;
+}
+
+/* CTA: Posicionamento final da seção */
+.sobre__cta {
+    display: flex;
+    justify-content: center;
+}
