@@ -1,0 +1,56 @@
+/* ==========================================================================
+   Componente: Hero (Seção de Destaque)
+   ========================================================================== */
+
+/* Container principal: define o layout centralizado e a imagem de fundo */
+.hero {
+    min-height: 90vh; /* Ocupa quase toda a altura da viewport */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 4rem 10%;
+    
+    /* Sobreposição de cor (overlay) para garantir contraste com o texto sobre a imagem */
+    background-image: 
+        linear-gradient(
+            rgba(15, 23, 42, .75), 
+            rgba(15, 23, 42, .75)
+        ), 
+        url("../assets/img/hero-bg.jpg");
+    
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Título principal: hierarquia visual máxima, limitado para legibilidade */
+.hero__title {
+    max-width: 1000px;
+    font-size: 4rem;
+    line-height: 1.2;
+    margin-bottom: 2rem;
+    color: #FFFFFF;
+}
+
+/* Descrição: texto de apoio com espaçamento entre linhas otimizado */
+.hero__description {
+    max-width: 850px;
+    color: #E2E8F0;
+    font-size: 1.3rem;
+    line-height: 1.8;
+    margin-bottom: 2rem;
+}
+
+/* ==========================================================================
+   Media Queries (Design Responsivo)
+   ========================================================================== */
+
+/* Mobile: redução de altura e fontes para dispositivos de tela reduzida */
+@media screen and (max-width: 480px) {
+    .hero {
+        min-height: 60vh;
+        padding: 2rem 1rem;
+    }
+}
