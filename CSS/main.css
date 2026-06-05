@@ -1,0 +1,21 @@
+/* 1. Reset e Configurações Globais */
+@import url("./reset.css");
+
+/* 2. Elementos de Layout (Estrutura fixa) */
+@import url("./cabecalho.css");
+@import url("./navbar.css");
+@import url("./rodape.css");
+
+/* 3. Componentes Reutilizáveis (Botões, Cards) */
+@import url("./botao.css");
+@import url("./card.css");
+
+/* 4. Seções da Página (Páginas ou Blocos de conteúdo) */
+@import url("./hero.css");
+@import url("./sobre.css");
+@import url("./catadores.css");
+@import url("./dashboard.css");
+@import url("./faq.css");
+@import url("./contato.css");
+@import url("./integrantes.css");
+@import url("./home.css");
