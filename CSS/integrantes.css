@@ -1,0 +1,66 @@
+/* ==========================================================================
+   Componente: Integrantes (Seção de equipe/time)
+   ========================================================================== */
+
+/* Container da seção: espaçamento uniforme e centralização do conteúdo */
+.integrantes {
+    padding: 4rem 10%;
+    text-align: center;
+}
+
+/* Título da seção: destaque com a cor da marca */
+.integrantes__title {
+    font-size: 2.5rem;
+    color: #22C55E;
+    margin-bottom: 1rem;
+}
+
+/* Descrição: texto de apoio com margem inferior para criar respiro visual */
+.integrantes__description {
+    color: #CBD5E1;
+    margin-bottom: 3rem;
+}
+
+/* Foto do integrante: formato circular com object-fit para evitar distorção */
+.integrante__foto {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover; /* Garante que a imagem preencha o círculo mantendo a proporção */
+    margin: auto;
+    margin-bottom: 1rem;
+}
+
+/* Link (ex: perfil ou rede social): comportamento de bloco para fácil clique */
+.integrante__link {
+    display: block;
+    margin-top: .5rem;
+    color: #22C55E;
+    font-weight: 600;
+}
+
+.integrante__link:hover {
+    text-decoration: underline;
+}
+
+/* ==========================================================================
+   Media Queries (Design Responsivo)
+   ========================================================================== */
+
+/* Mobile: ajuste de padding e escala do título para telas menores */
+@media screen and (max-width: 480px) {
+    .integrantes {
+        padding: 2rem 1rem;
+    }
+
+    .integrantes__title {
+        font-size: 1.8rem;
+    }
+}
+
+/* Tablet: ajuste de padding para maior aproveitamento do espaço horizontal */
+@media screen and (min-width: 481px) and (max-width: 786px) {
+    .integrantes {
+        padding: 3rem 5%;
+    }
+}
