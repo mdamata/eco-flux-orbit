@@ -1,213 +1,97 @@
 <!doctype html>
 <html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
 
-<head>
-
-    <meta charset="UTF-8">
-
-    <meta
-        name="viewport"
-        content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <title>EcoFlux Orbit</title>
 
-    <link
-        rel="stylesheet"
-        href="./css/main.css">
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
 
-</head>
-
-<body>
-
+  <body>
     <header class="header">
+      <div class="header__brand">
+        <img
+          class="header__logo"
+          src="./assets/logo/logo.png"
+          alt="Logo EcoFlux Orbit"
+        />
 
-        <div class="header__brand">
+        <span class="header__name"> | EcoFlux Orbit </span>
+      </div>
 
-            <img
-                class="header__logo"
-                src="./assets/logo/logo.png"
-                alt="Logo EcoFlux Orbit">
+      <nav class="navbar" aria-label="Menu principal">
+        <a class="navbar__link" href="./paginas/sobre.html"> Sobre </a>
 
-            <span class="header__name">
+        <a class="navbar__link" href="./paginas/catadores.html"> Catadores </a>
 
-                | EcoFlux Orbit
+        <a class="navbar__link" href="./paginas/dashboard.html"> Dashboard </a>
 
-            </span>
+        <a class="navbar__link" href="./paginas/faq.html"> FAQ </a>
 
-        </div>
+        <a class="navbar__link" href="./paginas/contato.html"> Contato </a>
 
-        <nav
-            class="navbar"
-            aria-label="Menu principal">
-
-            <a
-                class="navbar__link"
-                href="./paginas/sobre.html">
-
-                Sobre
-
-            </a>
-
-            <a
-                class="navbar__link"
-                href="./paginas/catadores.html">
-
-                Catadores
-
-            </a>
-
-            <a
-                class="navbar__link"
-                href="./paginas/dashboard.html">
-
-                Dashboard
-
-            </a>
-
-            <a
-                class="navbar__link"
-                href="./paginas/faq.html">
-
-                FAQ
-
-            </a>
-
-            <a
-                class="navbar__link"
-                href="./paginas/contato.html">
-
-                Contato
-
-            </a>
-
-            <a
-                class="navbar__link"
-                href="./paginas/integrantes.html">
-
-                Integrantes
-
-            </a>
-
-        </nav>
-
+        <a class="navbar__link" href="./paginas/integrantes.html">
+          Integrantes
+        </a>
+      </nav>
     </header>
 
     <main>
+      <section class="hero">
+        <h1 class="hero__title">
+          Inteligência Orbital para uma Reciclagem Mais Eficiente
+        </h1>
 
-        <section class="hero">
+        <p class="hero__description">
+          O EcoFlux Orbit conecta catadores, eventos e empresas recicladoras
+          através de monitoramento inteligente, promovendo sustentabilidade,
+          inclusão social e economia circular.
+        </p>
 
-            <h1 class="hero__title">
+        <a class="btn" href="../paginas/sobre.html"> Conheça a Solução </a>
+      </section>
 
-                Inteligência Orbital para uma
-                Reciclagem Mais Eficiente
+      <section class="sobre">
+        <h2 class="sobre__title">Nossa Missão</h2>
 
-            </h1>
+        <p class="sobre__text">
+          Utilizar tecnologia para reduzir o desperdício, aumentar a renda dos
+          catadores e fortalecer a cadeia da reciclagem nas cidades.
+        </p>
+      </section>
 
-            <p class="hero__description">
+      <section class="cards">
+        <div class="card">
+          <h3 class="card__title">Eventos Inteligentes</h3>
 
-                O EcoFlux Orbit conecta catadores,
-                eventos e empresas recicladoras através
-                de monitoramento inteligente, promovendo
-                sustentabilidade, inclusão social e
-                economia circular.
+          <p class="card__text">
+            Identificação de locais com grande concentração de pessoas.
+          </p>
+        </div>
 
-            </p>
+        <div class="card">
+          <h3 class="card__title">Catadores Conectados</h3>
 
-            <a
-                class="btn"
-                href="../paginas/sobre.html">
+          <p class="card__text">
+            Direcionamento estratégico para aumentar oportunidades de coleta.
+          </p>
+        </div>
 
-                Conheça a Solução
+        <div class="card">
+          <h3 class="card__title">Selo Verde</h3>
 
-            </a>
-
-        </section>
-
-        <section class="sobre">
-
-            <h2 class="sobre__title">
-
-                Nossa Missão
-
-            </h2>
-
-            <p class="sobre__text">
-
-                Utilizar tecnologia para reduzir o desperdício,
-                aumentar a renda dos catadores e fortalecer
-                a cadeia da reciclagem nas cidades.
-
-            </p>
-
-        </section>
-
-        <section class="cards">
-
-            <div class="card">
-
-                <h3 class="card__title">
-
-                    Eventos Inteligentes
-
-                </h3>
-
-                <p class="card__text">
-
-                    Identificação de locais com grande
-                    concentração de pessoas.
-
-                </p>
-
-            </div>
-
-            <div class="card">
-
-                <h3 class="card__title">
-
-                    Catadores Conectados
-
-                </h3>
-
-                <p class="card__text">
-
-                    Direcionamento estratégico para
-                    aumentar oportunidades de coleta.
-
-                </p>
-
-            </div>
-
-            <div class="card">
-
-                <h3 class="card__title">
-
-                    Selo Verde
-
-                </h3>
-
-                <p class="card__text">
-
-                    Incentivo às empresas parceiras
-                    comprometidas com sustentabilidade.
-
-                </p>
-
-            </div>
-
-        </section>
-
+          <p class="card__text">
+            Incentivo às empresas parceiras comprometidas com sustentabilidade.
+          </p>
+        </div>
+      </section>
     </main>
 
     <footer class="footer">
-
-        <p class="footer__text">
-
-            EcoFlux Orbit © 2026
-
-        </p>
-
+      <p class="footer__text">EcoFlux Orbit © 2026</p>
     </footer>
-
-</body>
-
+  </body>
 </html>

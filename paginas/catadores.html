@@ -1,397 +1,176 @@
 <!doctype html>
 <html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
 
-<head>
-
-    <meta charset="UTF-8">
-
-    <meta
-        name="viewport"
-        content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <title>Catadores | EcoFlux Orbit</title>
 
-    <link
-        rel="stylesheet"
-        href="../css/main.css">
+    <link rel="stylesheet" href="../css/main.css" />
+  </head>
 
-</head>
-
-<body>
-
+  <body>
     <header class="header">
+      <div class="header__brand">
+        <img
+          class="header__logo"
+          src="../assets/logo/logo.png"
+          alt="Logo EcoFlux Orbit"
+        />
 
-        <div class="header__brand">
+        <span class="header__name"> | EcoFlux Orbit </span>
+      </div>
 
-            <img
-                class="header__logo"
-                src="../assets/logo/logo.png"
-                alt="Logo EcoFlux Orbit">
+      <nav class="navbar" aria-label="Menu principal">
+        <a class="navbar__link" href="../index.html">Home</a>
 
-            <span class="header__name">
+        <a class="navbar__link" href="./sobre.html">Sobre</a>
 
-                | EcoFlux Orbit
+        <a class="navbar__link" href="./dashboard.html">Dashboard</a>
 
-            </span>
+        <a class="navbar__link" href="./faq.html">FAQ</a>
 
-        </div>
-
-        <nav
-            class="navbar"
-            aria-label="Menu principal">
-
-            <a class="navbar__link" href="../index.html">Home</a>
-
-            <a class="navbar__link" href="./sobre.html">Sobre</a>
-
-            <a class="navbar__link" href="./dashboard.html">Dashboard</a>
-
-            <a class="navbar__link" href="./faq.html">FAQ</a>
-
-            <a class="navbar__link" href="./contato.html">Contato</a>
-
-        </nav>
-
+        <a class="navbar__link" href="./contato.html">Contato</a>
+      </nav>
     </header>
 
     <main>
+      <section class="catadores">
+        <h1 class="catadores__title">Catadores Parceiros</h1>
 
-        <section class="catadores">
+        <p class="catadores__description">
+          O EcoFlux Orbit conecta catadores a eventos com alto potencial de
+          reciclagem, aumentando a renda e promovendo impacto ambiental
+          positivo.
+        </p>
+      </section>
 
-            <h1 class="catadores__title">
+      <section class="beneficios">
+        <h2 class="section-title">Benefícios da Plataforma</h2>
 
-                Catadores Parceiros
+        <div class="cards">
+          <div class="card">
+            <h3 class="card__title">Eventos Inteligentes</h3>
 
-            </h1>
-
-            <p class="catadores__description">
-
-                O EcoFlux Orbit conecta catadores a eventos com
-                alto potencial de reciclagem, aumentando a renda
-                e promovendo impacto ambiental positivo.
-
+            <p class="card__text">
+              Receba recomendações de locais com grande concentração de pessoas.
             </p>
+          </div>
 
-        </section>
+          <div class="card">
+            <h3 class="card__title">Menos Concorrência</h3>
 
-        <section class="beneficios">
+            <p class="card__text">
+              Direcionamento para áreas com menor número de catadores.
+            </p>
+          </div>
 
-            <h2 class="section-title">
+          <div class="card">
+            <h3 class="card__title">Mais Renda</h3>
 
-                Benefícios da Plataforma
+            <p class="card__text">
+              Maior eficiência na coleta de materiais recicláveis.
+            </p>
+          </div>
+        </div>
+      </section>
 
-            </h2>
+      <section class="processo">
+        <section class="cadastro">
+          <h2 class="cadastro__title">Cadastro de Catador</h2>
 
-            <div class="cards">
+          <p class="cadastro__description">
+            Cadastre-se para receber eventos próximos e aumentar suas
+            oportunidades de coleta.
+          </p>
 
-                <div class="card">
+          <form class="cadastro__form" id="formCatador">
+            <div class="cadastro__group">
+              <label class="cadastro__label" for="nome"> Nome Completo </label>
 
-                    <h3 class="card__title">
-
-                        Eventos Inteligentes
-
-                    </h3>
-
-                    <p class="card__text">
-
-                        Receba recomendações de locais
-                        com grande concentração de pessoas.
-
-                    </p>
-
-                </div>
-
-                <div class="card">
-
-                    <h3 class="card__title">
-
-                        Menos Concorrência
-
-                    </h3>
-
-                    <p class="card__text">
-
-                        Direcionamento para áreas com
-                        menor número de catadores.
-
-                    </p>
-
-                </div>
-
-                <div class="card">
-
-                    <h3 class="card__title">
-
-                        Mais Renda
-
-                    </h3>
-
-                    <p class="card__text">
-
-                        Maior eficiência na coleta
-                        de materiais recicláveis.
-
-                    </p>
-
-                </div>
-
+              <input class="cadastro__input" type="text" id="nome" required />
             </div>
 
-        </section>
+            <div class="cadastro__group">
+              <label class="cadastro__label" for="telefone"> Telefone </label>
 
-        <section class="processo">
-
-            <section class="cadastro">
-
-    <h2 class="cadastro__title">
-
-        Cadastro de Catador
-
-    </h2>
-
-    <p class="cadastro__description">
-
-        Cadastre-se para receber eventos próximos
-        e aumentar suas oportunidades de coleta.
-
-    </p>
-
-    <form
-        class="cadastro__form"
-        id="formCatador">
-
-        <div class="cadastro__group">
-
-            <label
-                class="cadastro__label"
-                for="nome">
-
-                Nome Completo
-
-            </label>
-
-            <input
-                class="cadastro__input"
-                type="text"
-                id="nome"
-                required>
-
-        </div>
-
-        <div class="cadastro__group">
-
-            <label
-                class="cadastro__label"
-                for="telefone">
-
-                Telefone
-
-            </label>
-
-            <input
+              <input
                 class="cadastro__input"
                 type="tel"
                 id="telefone"
-                required>
-
-        </div>
-
-        <div class="cadastro__group">
-
-            <label
-                class="cadastro__label"
-                for="cidade">
-
-                Cidade
-
-            </label>
-
-            <input
-                class="cadastro__input"
-                type="text"
-                id="cidade"
-                required>
-
-        </div>
-
-        <div class="cadastro__group">
-
-            <label
-                class="cadastro__label"
-                for="plano">
-
-                Plano
-
-            </label>
-
-            <select
-                class="cadastro__input"
-                id="plano">
-
-                <option>
-
-                    Mensal
-
-                </option>
-
-                <option>
-
-                    Anual
-
-                </option>
-
-            </select>
-
-        </div>
-
-        <button
-            class="btn"
-            type="submit">
-
-            Realizar Cadastro
-
-        </button>
-
-    </form>
-
-    <p
-        class="cadastro__success"
-        id="mensagemCadastro">
-
-    </p>
-
-</section>
-
-            <h2 class="section-title">
-
-                Como Funciona
-
-            </h2>
-
-            <div class="processo__container">
-
-                <div class="processo__item">
-
-                    <span class="processo__numero">
-
-                        1
-
-                    </span>
-
-                    <h3>
-
-                        Cadastro
-
-                    </h3>
-
-                    <p>
-
-                        O catador realiza seu cadastro
-                        na plataforma.
-
-                    </p>
-
-                </div>
-
-                <div class="processo__item">
-
-                    <span class="processo__numero">
-
-                        2
-
-                    </span>
-
-                    <h3>
-
-                        Recebe Eventos
-
-                    </h3>
-
-                    <p>
-
-                        O sistema sugere eventos
-                        próximos e estratégicos.
-
-                    </p>
-
-                </div>
-
-                <div class="processo__item">
-
-                    <span class="processo__numero">
-
-                        3
-
-                    </span>
-
-                    <h3>
-
-                        Realiza Coleta
-
-                    </h3>
-
-                    <p>
-
-                        Coleta materiais recicláveis
-                        durante o evento.
-
-                    </p>
-
-                </div>
-
-                <div class="processo__item">
-
-                    <span class="processo__numero">
-
-                        4
-
-                    </span>
-
-                    <h3>
-
-                        Check-in
-
-                    </h3>
-
-                    <p>
-
-                        Entrega o material
-                        em uma empresa parceira.
-
-                    </p>
-
-                </div>
-
+                required
+              />
             </div>
 
+            <div class="cadastro__group">
+              <label class="cadastro__label" for="cidade"> Cidade </label>
+
+              <input class="cadastro__input" type="text" id="cidade" required />
+            </div>
+
+            <div class="cadastro__group">
+              <label class="cadastro__label" for="plano"> Plano </label>
+
+              <select class="cadastro__input" id="plano">
+                <option>Mensal</option>
+
+                <option>Anual</option>
+              </select>
+            </div>
+
+            <button class="btn" type="submit">Realizar Cadastro</button>
+          </form>
+
+          <p class="cadastro__success" id="mensagemCadastro"></p>
         </section>
 
-        <section class="catadores__cta">
+        <h2 class="section-title">Como Funciona</h2>
 
-            <a
-                class="btn"
-                href="./dashboard.html">
+        <div class="processo__container">
+          <div class="processo__item">
+            <span class="processo__numero"> 1 </span>
 
-                Ver Monitoramento
+            <h3>Cadastro</h3>
 
-            </a>
+            <p>O catador realiza seu cadastro na plataforma.</p>
+          </div>
 
-        </section>
+          <div class="processo__item">
+            <span class="processo__numero"> 2 </span>
 
+            <h3>Recebe Eventos</h3>
+
+            <p>O sistema sugere eventos próximos e estratégicos.</p>
+          </div>
+
+          <div class="processo__item">
+            <span class="processo__numero"> 3 </span>
+
+            <h3>Realiza Coleta</h3>
+
+            <p>Coleta materiais recicláveis durante o evento.</p>
+          </div>
+
+          <div class="processo__item">
+            <span class="processo__numero"> 4 </span>
+
+            <h3>Check-in</h3>
+
+            <p>Entrega o material em uma empresa parceira.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="catadores__cta">
+        <a class="btn" href="./dashboard.html"> Ver Monitoramento </a>
+      </section>
     </main>
 
     <footer class="footer">
-
-        <p class="footer__text">
-
-            EcoFlux Orbit © 2026
-
-        </p>
-
+      <p class="footer__text">EcoFlux Orbit © 2026</p>
     </footer>
 
     <script src="../js/catadores.js"></script>
-    
-</body>
-
+  </body>
 </html>
