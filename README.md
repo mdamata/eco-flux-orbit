@@ -1,6 +1,6 @@
 # 🌎 EcoFlux Orbit
 
-Projeto desenvolvido para o Challenge FIAP.
+Projeto desenvolvido para a Global Solution FIAP.
 
 O EcoFlux Orbit é uma plataforma que utiliza tecnologia inteligente para conectar catadores, empresas recicladoras e eventos, promovendo sustentabilidade, geração de renda e eficiência na coleta seletiva.
 
