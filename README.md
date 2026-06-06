@@ -148,6 +148,10 @@ Contém:
 - missão do projeto;
 - navegação para todas as páginas.
 
+<img width="1918" height="866" alt="image" src="https://github.com/user-attachments/assets/a9a9e54e-a8d5-4443-86f7-d2047ea3193a" />
+<img width="1918" height="956" alt="image" src="https://github.com/user-attachments/assets/681fc261-60ee-463e-bc58-58b054b04950" />
+
+
 ---
 
 ## 📖 Sobre
@@ -161,6 +165,11 @@ Explica:
 - tecnologias utilizadas;
 - roadmap.
 
+<img width="1918" height="956" alt="image" src="https://github.com/user-attachments/assets/ddb1f4ff-e3fa-4ca4-aa51-ee735855ca39" />
+<img width="1918" height="956" alt="image" src="https://github.com/user-attachments/assets/19ff7960-b6f9-4d31-9df8-4b505e5b16e9" />
+
+
+
 ---
 
 ## ♻️ Catadores
@@ -173,6 +182,11 @@ Contém:
 - etapas do processo;
 - formulário de cadastro;
 - informações sobre participação.
+
+<img width="1918" height="956" alt="image" src="https://github.com/user-attachments/assets/64735ca8-3db8-4660-a40f-96cd2707fbdd" />
+<img width="1918" height="956" alt="image" src="https://github.com/user-attachments/assets/03f83330-c0cf-4940-b142-5622cdb7cbaa" />
+<img width="1918" height="956" alt="image" src="https://github.com/user-attachments/assets/af2afe68-b68a-413f-b912-cb2021b525aa" />
+
 
 ---
 
@@ -190,6 +204,10 @@ Apresenta:
 
 Possui atualização dinâmica através de JavaScript.
 
+<img width="1918" height="956" alt="image" src="https://github.com/user-attachments/assets/87c171bb-33ce-4b0f-904f-db91ca7355c7" />
+<img width="1918" height="956" alt="image" src="https://github.com/user-attachments/assets/a5fa32c3-b228-44e2-8173-fddf5e9ebda3" />
+
+
 ---
 
 ## ❓ FAQ
@@ -202,6 +220,11 @@ Contém:
 - respostas sobre a plataforma;
 - interação dinâmica utilizando JavaScript.
 
+<img width="1918" height="956" alt="image" src="https://github.com/user-attachments/assets/373ba58c-96bb-436c-8c49-a68843367c32" />
+<img width="1918" height="956" alt="image" src="https://github.com/user-attachments/assets/d950bb77-41fc-4b59-9924-d29f15054e99" />
+
+
+
 ---
 
 ## 📞 Contato
@@ -213,6 +236,10 @@ Contém:
 - formulário validado;
 - informações de contato;
 - feedback visual ao usuário.
+
+<img width="1918" height="956" alt="image" src="https://github.com/user-attachments/assets/82eb9a3d-7c9b-4d7e-aba9-bc5dde82be1b" />
+<img width="1918" height="956" alt="image" src="https://github.com/user-attachments/assets/45ca8436-249a-427c-977f-22fc2ee2774d" />
+
 
 ---
 
@@ -228,6 +255,9 @@ Apresenta:
 - turma;
 - GitHub;
 - LinkedIn.
+
+<img width="1918" height="956" alt="image" src="https://github.com/user-attachments/assets/b3b8ddf9-8e8c-4fc7-a85f-37bb46ff61a6" />
+
 
 ---
 
