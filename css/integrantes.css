@@ -1,6 +1,6 @@
-/* ==========================================================================
+/* 
    Componente: Integrantes (Seção de equipe/time)
-   ========================================================================== */
+    */
 
 /* Container da seção: espaçamento uniforme e centralização do conteúdo */
 .integrantes {
@@ -43,9 +43,9 @@
     text-decoration: underline;
 }
 
-/* ==========================================================================
+/*
    Media Queries (Design Responsivo)
-   ========================================================================== */
+  */
 
 /* Mobile: ajuste de padding e escala do título para telas menores */
 @media screen and (max-width: 480px) {

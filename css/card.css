@@ -1,3 +1,8 @@
+/* Componente: Cards Informativos
+   Utilizado para apresentar funcionalidades,
+   benefícios e informações organizadas. */
+
+/* Container dos cards utilizando CSS Grid */
 .cards{
 
     display:grid;
@@ -10,6 +15,7 @@
     padding:4rem 10%;
 }
 
+/* Card individual */
 .card{
 
     background:#1E293B;
@@ -21,6 +27,7 @@
     transition:.3s;
 }
 
+/* Efeito visual para reforçar interatividade */
 .card:hover{
 
     transform:translateY(-5px);
@@ -29,6 +36,7 @@
     0 10px 20px rgba(0,0,0,.25);
 }
 
+/* Título do card */
 .card__title{
 
     color:#22C55E;
@@ -36,6 +44,7 @@
     margin-bottom:1rem;
 }
 
+/* Conteúdo textual */
 .card__text{
 
     color:#CBD5E1;
@@ -43,8 +52,7 @@
     line-height:1.6;
 }
 
-/* MOBILE */
-
+/* Mobile */
 @media screen and (max-width:480px){
 
     .cards{
@@ -53,11 +61,9 @@
 
         padding:2rem 1rem;
     }
-
 }
 
-/* TABLET */
-
+/* Tablet */
 @media screen and (min-width:481px)
 and (max-width:786px){
 
@@ -66,5 +72,4 @@ and (max-width:786px){
         grid-template-columns:
         repeat(2,1fr);
     }
-
 }

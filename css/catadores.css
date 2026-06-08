@@ -1,3 +1,15 @@
+/* 
+   Responsável por apresentar a proposta de valor
+   da plataforma para os catadores, explicando
+   benefícios, processo de funcionamento e
+   disponibilizando o formulário de cadastro. */
+
+
+/*                                              
+   Apresentação inicial da página com título
+   e descrição da proposta da plataforma.
+ */
+
 .catadores{
 
     padding:4rem 10%;
@@ -5,6 +17,7 @@
     text-align:center;
 }
 
+/* Título principal da página */
 .catadores__title{
 
     font-size:2.5rem;
@@ -14,6 +27,7 @@
     margin-bottom:1rem;
 }
 
+/* Texto explicativo sobre a solução */
 .catadores__description{
 
     max-width:800px;
@@ -25,20 +39,29 @@
     line-height:1.8;
 }
 
-/* BENEFÍCIOS */
+
+/* 
+   Destaca as vantagens oferecidas pela plataforma
+   para os catadores cadastrados.
+ */
 
 .beneficios{
 
     padding:4rem 10%;
 }
 
-/* PROCESSO */
+
+/* 
+   Demonstra visualmente as etapas do fluxo de
+   funcionamento da plataforma para o usuário.
+ */
 
 .processo{
 
     padding:4rem 10%;
 }
 
+/* Container dos cards do processo */
 .processo__container{
 
     display:grid;
@@ -49,87 +72,7 @@
     gap:1.5rem;
 }
 
-/* CADASTRO */
-
-.cadastro{
-
-    padding:4rem 10%;
-
-    text-align:center;
-}
-
-.cadastro__title{
-
-    color:#22C55E;
-
-    font-size:2rem;
-
-    margin-bottom:1rem;
-}
-
-.cadastro__description{
-
-    color:#CBD5E1;
-
-    margin-bottom:2rem;
-}
-
-.cadastro__form{
-
-    max-width:700px;
-
-    margin:auto;
-
-    display:flex;
-
-    flex-direction:column;
-
-    gap:1.5rem;
-}
-
-.cadastro__group{
-
-    display:flex;
-
-    flex-direction:column;
-
-    text-align:left;
-}
-
-.cadastro__label{
-
-    margin-bottom:.5rem;
-
-    color:#FFFFFF;
-}
-
-.cadastro__input{
-
-    padding:1rem;
-
-    border:none;
-
-    border-radius:8px;
-
-    background:#1E293B;
-
-    color:#FFFFFF;
-}
-
-.cadastro__input:focus{
-
-    outline:2px solid #22C55E;
-}
-
-.cadastro__success{
-
-    margin-top:2rem;
-
-    color:#22C55E;
-
-    font-weight:700;
-}
-
+/* Card individual de cada etapa */
 .processo__item{
 
     background:#1E293B;
@@ -141,6 +84,7 @@
     text-align:center;
 }
 
+/* Indicador numérico circular da etapa */
 .processo__numero{
 
     width:50px;
@@ -166,7 +110,108 @@
     font-weight:700;
 }
 
-/* CTA */
+
+/* 
+   Área destinada ao cadastramento dos catadores
+   interessados em utilizar a plataforma.
+ */
+
+.cadastro{
+
+    padding:4rem 10%;
+
+    text-align:center;
+}
+
+/* Título da área de cadastro */
+.cadastro__title{
+
+    color:#22C55E;
+
+    font-size:2rem;
+
+    margin-bottom:1rem;
+}
+
+/* Texto de apoio ao formulário */
+.cadastro__description{
+
+    color:#CBD5E1;
+
+    margin-bottom:2rem;
+}
+
+/* Estrutura principal do formulário */
+.cadastro__form{
+
+    max-width:700px;
+
+    margin:auto;
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:1.5rem;
+}
+
+/* Agrupamento label + campo */
+.cadastro__group{
+
+    display:flex;
+
+    flex-direction:column;
+
+    text-align:left;
+}
+
+/* Rótulo dos campos */
+.cadastro__label{
+
+    margin-bottom:.5rem;
+
+    color:#FFFFFF;
+}
+
+/* Campos de entrada */
+.cadastro__input{
+
+    padding:1rem;
+
+    border:none;
+
+    border-radius:8px;
+
+    background:#1E293B;
+
+    color:#FFFFFF;
+}
+
+/* Estado Focus
+   Destaca visualmente o campo selecionado,
+   melhorando acessibilidade e usabilidade.
+*/
+.cadastro__input:focus{
+
+    outline:2px solid #22C55E;
+}
+
+/* Mensagem exibida após cadastro realizado */
+.cadastro__success{
+
+    margin-top:2rem;
+
+    color:#22C55E;
+
+    font-weight:700;
+}
+
+
+/*
+   Call To Action (CTA)
+   Área responsável por centralizar os botões
+   de ação da página.
+ */
 
 .catadores__cta{
 
@@ -177,7 +222,12 @@
     padding-bottom:4rem;
 }
 
-/* MOBILE */
+
+/* 
+   Responsividade Mobile
+   Aplicada para dispositivos com largura
+   máxima de 480px.
+ */
 
 @media screen and (max-width:480px){
 
@@ -191,6 +241,7 @@
         font-size:1.8rem;
     }
 
+    /* Processo exibido em coluna única */
     .processo__container{
 
         grid-template-columns:1fr;
@@ -198,11 +249,18 @@
 
 }
 
-/* TABLET */
+
+/* 
+   Responsividade Tablet
+
+   Aplicada para dispositivos entre
+   481px e 786px.
+*/
 
 @media screen and (min-width:481px)
 and (max-width:786px){
 
+    /* Processo exibido em duas colunas */
     .processo__container{
 
         grid-template-columns:
@@ -211,10 +269,15 @@ and (max-width:786px){
 
 }
 
-/* DESKTOP */
+
+/* 
+   Responsividade Desktop
+   Aplicada para dispositivos acima de 786px.
+ */
 
 @media screen and (min-width:787px){
 
+    /* Exibição completa em quatro colunas */
     .processo__container{
 
         grid-template-columns:

@@ -1,6 +1,6 @@
-/* ==========================================================================
+/* 
    Componente: Footer (Rodapé do site)
-   ========================================================================== */
+  */
 
 /* Container principal: define a separação visual e o espaçamento da base da página */
 .footer {
@@ -16,9 +16,9 @@
     color: #94A3B8;
 }
 
-/* ==========================================================================
+/* 
    Media Queries (Design Responsivo)
-   ========================================================================== */
+    */
 
 /* Mobile: ajuste de padding para otimizar o espaço em telas pequenas */
 @media screen and (max-width: 480px) {

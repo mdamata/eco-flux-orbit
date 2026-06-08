@@ -1,6 +1,6 @@
-/* ==========================================================================
+/* 
    Componente: Hero (Seção de Destaque)
-   ========================================================================== */
+   */
 
 /* Container principal: define o layout centralizado e a imagem de fundo */
 .hero {
@@ -43,9 +43,9 @@
     margin-bottom: 2rem;
 }
 
-/* ==========================================================================
+/* 
    Media Queries (Design Responsivo)
-   ========================================================================== */
+   */
 
 /* Mobile: redução de altura e fontes para dispositivos de tela reduzida */
 @media screen and (max-width: 480px) {

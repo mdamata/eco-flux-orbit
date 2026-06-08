@@ -1,3 +1,8 @@
+/* Responsável pelas ações principais do sistema,
+   como navegação entre páginas, envio de formulários
+   e chamadas para ação (Call To Action). */
+
+/* Botão base reutilizável */
 .btn{
 
     display:inline-flex;
@@ -32,6 +37,8 @@
     box-shadow .3s;
 }
 
+/* Estado Hover
+   Feedback visual para usuários que utilizam mouse */
 .btn:hover{
 
     background:#16A34A;
@@ -42,11 +49,15 @@
     0 8px 20px rgba(34,197,94,.3);
 }
 
+/* Estado Active
+   Feedback visual durante o clique */
 .btn:active{
 
     transform:translateY(0);
 }
 
+/* Estado Focus
+   Melhora acessibilidade para navegação via teclado */
 .btn:focus{
 
     outline:none;

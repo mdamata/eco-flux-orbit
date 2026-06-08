@@ -1,3 +1,13 @@
+/* Componente: Cabeçalho (Header)
+
+   Responsável pela identidade visual do sistema
+   e pela organização dos elementos principais
+   de navegação da aplicação.
+
+   Estruturado seguindo a metodologia BEM
+   (Block Element Modifier). */
+
+/* Container principal do cabeçalho */
 .header{
 
     display:flex;
@@ -8,12 +18,15 @@
 
     padding:1rem 5%;
 
+    /* Separação visual entre header e conteúdo */
     border-bottom:
     1px solid rgba(255,255,255,.1);
 
+    /* Cor institucional da plataforma */
     background:#0F172A;
 }
 
+/* Agrupamento da logo e nome do sistema */
 .header__brand{
 
     display:flex;
@@ -23,6 +36,7 @@
     gap:.8rem;
 }
 
+/* Logotipo da plataforma */
 .header__logo{
 
     width:60px;
@@ -30,6 +44,7 @@
     height:auto;
 }
 
+/* Nome institucional exibido ao lado da logo */
 .header__name{
 
     font-size:1.2rem;
@@ -39,7 +54,12 @@
     color:#FFFFFF;
 }
 
-/* MOBILE */
+/*
+   Responsividade Mobile
+
+   Em telas pequenas o cabeçalho passa para
+   orientação vertical para evitar quebra
+   de layout e melhorar a usabilidade.*/
 
 @media screen and (max-width:480px){
 
@@ -59,7 +79,11 @@
 
 }
 
-/* TABLET */
+/*
+   Responsividade Tablet
+
+   Ajuste de espaçamento horizontal para melhor
+   aproveitamento da área útil da tela. */
 
 @media screen and (min-width:481px)
 and (max-width:786px){

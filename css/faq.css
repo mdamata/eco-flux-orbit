@@ -1,6 +1,6 @@
-/* ==========================================================================
+/* 
    Componente: FAQ (Frequently Asked Questions)
-   ========================================================================== */
+   */
 
 /* Container principal do componente: define espaçamento externo */
 .faq {
@@ -69,9 +69,9 @@
     line-height: 1.6; /* Melhor legibilidade para blocos de texto */
 }
 
-/* ==========================================================================
+/* 
    Media Queries (Design Responsivo)
-   ========================================================================== */
+    */
 
 /* Mobile: ajustes de espaçamento para telas menores */
 @media screen and (max-width: 480px) {

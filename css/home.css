@@ -1,6 +1,6 @@
-/* ==========================================================================
+/*
    Componente: Sobre (Seção de Apresentação)
-   ========================================================================== */
+    */
 
 /* Container geral: define respiro (padding) e alinhamento central */
 .sobre {
@@ -24,9 +24,9 @@
     font-size: 1.2rem;
 }
 
-/* ==========================================================================
+/* 
    Media Queries (Design Responsivo)
-   ========================================================================== */
+    */
 
 /* Mobile: ajustes de escala e espaçamento para dispositivos de tela pequena */
 @media screen and (max-width: 480px) {

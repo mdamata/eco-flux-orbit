@@ -1,3 +1,17 @@
+/* 
+   Página: Contato
+   Responsável pela comunicação entre usuários,
+   empresas parceiras e equipe do EcoFlux Orbit.
+   Disponibiliza formulário de contato validado
+   via JavaScript e informações institucionais.
+ */
+
+
+/* 
+   Seção Principal
+   Apresentação da página e formulário de contato.
+ */
+
 .contato{
 
     padding:4rem 10%;
@@ -5,6 +19,7 @@
     text-align:center;
 }
 
+/* Título principal da página */
 .contato__title{
 
     font-size:2.5rem;
@@ -14,6 +29,7 @@
     margin-bottom:1rem;
 }
 
+/* Texto explicativo da seção */
 .contato__description{
 
     max-width:700px;
@@ -26,6 +42,13 @@
 
     margin-bottom:3rem;
 }
+
+
+/* 
+   Formulário
+   Estrutura responsável pela coleta de dados
+   enviados pelo usuário.
+*/
 
 .contato__form{
 
@@ -40,6 +63,7 @@
     gap:1.5rem;
 }
 
+/* Agrupamento Label + Campo */
 .contato__group{
 
     display:flex;
@@ -49,6 +73,7 @@
     text-align:left;
 }
 
+/* Rótulos dos campos */
 .contato__label{
 
     margin-bottom:.5rem;
@@ -57,6 +82,13 @@
 
     font-weight:600;
 }
+
+
+/* 
+   Campos do Formulário
+   Inputs e textarea seguem o mesmo padrão visual
+   adotado em todo o sistema.
+ */
 
 .contato__input,
 
@@ -75,6 +107,9 @@
     font-size:1rem;
 }
 
+/* Campo de mensagem
+   Permite redimensionamento apenas na vertical.
+*/
 .contato__textarea{
 
     resize:vertical;
@@ -82,12 +117,23 @@
     min-height:150px;
 }
 
+/* Estado Focus
+   Destaca visualmente o campo selecionado,
+   melhorando usabilidade e acessibilidade.
+*/
 .contato__input:focus,
 
 .contato__textarea:focus{
 
     outline:2px solid #22C55E;
 }
+
+
+/* 
+   Feedback de Sucesso
+   Mensagem exibida após validação e envio
+   correto do formulário.
+*/
 
 .contato__success{
 
@@ -100,13 +146,19 @@
     font-size:1.1rem;
 }
 
-/* INFORMAÇÕES */
+
+/* 
+   Informações Institucionais
+   Área que apresenta dados de contato da
+   organização (telefone, e-mail, horário etc).
+ */
 
 .informacoes{
 
     padding:4rem 10%;
 }
 
+/* Título da seção */
 .informacoes__title{
 
     text-align:center;
@@ -118,7 +170,12 @@
     margin-bottom:3rem;
 }
 
-/* MOBILE */
+
+/* 
+   Responsividade Mobile
+   Aplicada para dispositivos com largura
+   máxima de 480px.
+ */
 
 @media screen and (max-width:480px){
 
@@ -143,7 +200,12 @@
     }
 }
 
-/* TABLET */
+
+/* 
+   Responsividade Tablet
+   Aplicada para dispositivos entre
+   481px e 786px.
+*/
 
 @media screen and (min-width:481px)
 and (max-width:786px){
@@ -159,7 +221,11 @@ and (max-width:786px){
     }
 }
 
-/* DESKTOP */
+
+/* 
+   Responsividade Desktop
+   Aplicada para dispositivos acima de 786px.
+ */
 
 @media screen and (min-width:787px){
 

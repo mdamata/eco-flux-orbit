@@ -1,3 +1,9 @@
+/* 
+   Página: Dashboard
+   Responsável por exibir métricas e indicadores
+   do sistema EcoFlux Orbit. */
+
+/* Seção principal */
 .dashboard{
 
     padding:4rem 10%;
@@ -5,6 +11,7 @@
     text-align:center;
 }
 
+/* Título principal */
 .dashboard__title{
 
     font-size:2.5rem;
@@ -14,6 +21,7 @@
     margin-bottom:1rem;
 }
 
+/* Texto introdutório */
 .dashboard__description{
 
     color:#CBD5E1;
@@ -21,8 +29,7 @@
     margin-bottom:3rem;
 }
 
-/* CARDS DE MÉTRICAS */
-
+/* Grid dos indicadores */
 .dashboard__cards{
 
     display:grid;
@@ -33,6 +40,7 @@
     gap:1.5rem;
 }
 
+/* Destaque numérico */
 .dashboard__number{
 
     font-size:2.5rem;
@@ -42,13 +50,14 @@
     color:#22C55E;
 }
 
-/* MAPA E REGIÕES */
+/* Seção: Mapa de Regiões */
 
 .dashboard__mapa{
 
     padding:4rem 10%;
 }
 
+/* Distribuição das regiões monitoradas */
 .dashboard__regioes{
 
     display:grid;
@@ -59,13 +68,14 @@
     gap:1.5rem;
 }
 
-/* RANKING */
+/* Seção: Ranking */
 
 .dashboard__ranking{
 
     padding:4rem 10%;
 }
 
+/* Container da tabela */
 .dashboard__table{
 
     max-width:900px;
@@ -73,6 +83,7 @@
     margin:auto;
 }
 
+/* Linha da tabela */
 .dashboard__row{
 
     display:grid;
@@ -89,6 +100,7 @@
     border-radius:8px;
 }
 
+/* Cabeçalho da tabela */
 .dashboard__row--header{
 
     background:#22C55E;
@@ -98,7 +110,7 @@
     font-weight:700;
 }
 
-/* MOBILE */
+/* Responsividade Mobile */
 
 @media screen and (max-width:480px){
 
@@ -110,11 +122,6 @@
     .dashboard__title{
 
         font-size:1.8rem;
-    }
-
-    .dashboard__description{
-
-        font-size:1rem;
     }
 
     .dashboard__cards{
@@ -135,10 +142,9 @@
 
         gap:.5rem;
     }
-
 }
 
-/* TABLET */
+/* Responsividade Tablet */
 
 @media screen and (min-width:481px)
 and (max-width:786px){
@@ -154,10 +160,9 @@ and (max-width:786px){
         grid-template-columns:
         repeat(2,1fr);
     }
-
 }
 
-/* DESKTOP */
+/* Responsividade Desktop */
 
 @media screen and (min-width:787px){
 
@@ -172,5 +177,4 @@ and (max-width:786px){
         grid-template-columns:
         repeat(3,1fr);
     }
-
 }

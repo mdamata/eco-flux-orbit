@@ -1,6 +1,6 @@
-/* ==========================================================================
+/* 
    Componente: Navbar (Navegação Principal)
-   ========================================================================== */
+    */
 
 /* Container: Layout flexível horizontal para telas grandes */
 .navbar {
@@ -20,9 +20,9 @@
     color: #22C55E;
 }
 
-/* ==========================================================================
+/* 
    Media Queries (Design Responsivo)
-   ========================================================================== */
+   */
 
 /* Mobile: Transforma a navegação em uma lista vertical (estilo menu sanduíche) */
 @media screen and (max-width: 480px) {
